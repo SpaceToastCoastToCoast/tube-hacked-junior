@@ -1,5 +1,4 @@
-# tube-hacked-junior
-Guess the secret code to broadcast your YouTube video to the whole room!
+# tube-hacked-junior - Explanation of HTTP
 
 ### Getting started
 You have already worked with sockets and connections, sending plain text between a client and a server. At its most basic level, this is how servers in the real world communicate. Web servers use HyperText Transfer Protocol (HTTP) to standardize communication between clients and servers and provide extra information on the content of the message being sent. HTTP is just plaintext (strings) that follows a specific structure.
@@ -25,6 +24,3 @@ GET /index.html Content-Type:text/plain Accept:text/plain Hi, server!
 
 ### Example response
 200 OK Content-Type:text/plain Hello, client!
-
-### HTTP requests in Python
-Python's HTTP module includes functions for creating connections and assembling requests. These methods let you separate out the parts of the request 
